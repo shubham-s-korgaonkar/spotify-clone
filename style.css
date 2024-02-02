@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left {
+    border-radius: 10px;
+    width: 25vw;
+    height: 95vh;
+    margin: 10px;
+}
+
+.logo {
+    margin: 10px 20px;
+}
+
+.Home {
+    background-color: #121212;
+    width: parent;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.Home ul li {
+    list-style-type: none;
+    margin: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Poppins, "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+ul:first-child {
+    color: white;
+}
+
+ul:nth-child(2) {
+    color: #b3b3b3
+}
+
+.Library {
+    background-color: #121212;
+    margin-top: 10px;
+    width: parent;
+    height: parent;
+    border-radius: 10px;
+}
+
+.yl {
+    padding: 10px 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    color: #b3b3b3;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Poppins, Arial, sans-serif;
+}
+
+.hrcardContainer{
+    height: 41vh;
+    overflow-y: auto;
+}
+
+.hrcard {
+    padding: 10px 5px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    font-family: Poppins, Arial, sans-serif;
+}
+
+#songlist{
+    list-style-type: none;
+}
+
+.links ul {
+    width: parent;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.right {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    width: 75vw;
+    height: 95vh;
+    margin: 10px 10px 0 0;
+}
+
+.head {
+    margin: 0px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 10px 10px;
+}
+
+.brackets {
+    margin: 0px 20px;
+}
+
+#br1 {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#br2 {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#button1 {
+    color: #b3b3b3;
+    background: none;
+    border: none;
+    margin: 0px 10px;
+    padding: 10px;
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#button1:hover{
+    color: white;
+    font-size: 17px;
+}
+
+#button2 {
+    color: black;
+    background-color: white;
+    border: none;
+    margin: 0px 15px;
+    padding: 10px;
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 110px;
+    border-radius: 20px;
+}
+
+#button2:hover{
+    background-color: #f6f6f6;
+    font-size: 17px;
+}
+
+h2 {
+    margin: 10px 20px;
+    color: white;
+    font-family: Poppins, Arial, sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #333; 
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c9c5c5; 
+}
+
+
+.seek-bar {
+    position: absolute;
+    bottom: 10px;
+    width: calc(75vw - 100px); 
+    margin: 20px 20px; 
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 100%; 
+    height: 10px; 
+    border-radius: 5px; 
+    background: #ccc; 
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%; 
+    background: #aca5a5; 
+    cursor: pointer; 
+}
+
+.audiobuttons{
+    display: flex;
+    margin: 10px 0px;
+    gap: 20px;
+    justify-content: center;
+    filter: invert(1);
+}
+
+
+@media (max-width: 760px) {
+    
+}
